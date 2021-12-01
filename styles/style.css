@@ -1,3 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+
+
+
+nav a:hover {
+  background-color: white;
+  color: black;
+}
+header {
+  background-color: #FFECD1;
+  font-family: Nunito Sans;
+  display: grid;
+  grid-template-columns: auto;
+}
+nav a {
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  padding: 35px;
+}
+.logo {
+  width: 150px;
+}
+#logo-link {
+  padding-top: 5px;
+  justify-self: center;
+  align-self: left;
+}
+.icon {
+  width: 80px;
+  padding-top: 10px;
+}
+
+
+.content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+#hero-message h1 {
+  text-align: center;
+  color: black;
+  font-family: Nunito Sans;
+}
+
+/* footer css beginning */
+footer {
+  background-color: #FFECD1;
+  padding: 25px 50px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .social img  {
+  padding-top: 15px;
+}
+
+
+/* Contactus.html beginning */
 form {
     /* Center the form on the page */
     margin: 0 auto;
@@ -76,3 +135,5 @@ form {
 .moveDown {
     margin-top: 3em;
 }
+
+/* end of contactus.html */
