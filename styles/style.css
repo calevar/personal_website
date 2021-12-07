@@ -12,6 +12,10 @@ header {
   display: grid;
   grid-template-columns: auto; 
 } 
+nav {
+  display: flex;
+  justify-content: space-around;
+}
 nav a {
   text-align: center;
   color: black;
@@ -132,7 +136,12 @@ nav a {
   opacity: 1;
 }
 
-/* end slide show css
+/* end slide show css */
+
+h4 {
+  font-family: Nunito Sans;
+  text-align: center;
+}
 
 /* footer css beginning */
 footer {
