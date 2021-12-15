@@ -39,19 +39,40 @@ nav a {
 .content {
   max-width: 1600px;
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto;
+
 } 
 #hero-message h1 {
   text-align: center;
   color: black;
   font-family: Nunito Sans;
+  font-size: 48px;
 } 
+h4 {
+  font-size: 28px;
+}
 
 .button-box1 a, .button-box2 a {
   text-decoration: none;
-  color: black
+  color: white;
+  font-family: Nunito Sans;
 }
+.button-box1 a:hover, .button-box2 a:hover {
+  background-color: #FFECD1;
+  color: black;
+}
+
 .button-box1, .button-box2 {
+  width: 150px;
   text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #78290F;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  margin-top: 50px;
 }
 
 
@@ -146,6 +167,8 @@ nav a {
 }
 
 /* end slide show css */
+
+
 /* footer css beginning */
 h4 {
   font-family: Nunito Sans;
