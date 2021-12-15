@@ -51,6 +51,8 @@ nav a {
 } 
 h4 {
   font-size: 28px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .button-box1 a, .button-box2 a {
